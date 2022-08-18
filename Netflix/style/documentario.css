@@ -1,0 +1,76 @@
+:root{
+    --vermelho : red;
+    --preto : black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+   background: var(--preto);
+   color: white;
+}
+
+.netflix_logo{
+    font-family: 'Arial black';
+    color: red;
+    font-size: 40px;
+}
+
+header .container{
+    border: 1px solid black;
+}
+
+header .container{
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: black;
+}
+
+header nav a{
+   color: grey; 
+   text-decoration: none;
+   font-family: 'Arial';
+   margin-right: 2rem;
+}
+
+header nav a:hover{
+ color: white;
+}
+
+/*Cabeçalho*/
+.cabecalho{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+    margin-left: 2rem;
+}
+
+/*series*/
+.rec{
+    margin-bottom: 7px;
+    margin-left: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.emalta{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 1rem;
+    font-family: Arial, sans-serif;
+}
+
+.adult{
+    font-family: Arial, sans-serif;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    margin-left: 1rem; 
+}
+
+
